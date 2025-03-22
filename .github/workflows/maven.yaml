@@ -4,11 +4,11 @@ on:
   push:
     branches: 
       - "main"
-    paths:
-      - "spring-boot-data-jpa-mysql-master/**"
-      - ".github/workflows/maven-workflow.yml"
-      - "!README.md"
-      - "!spring-boot-data-jpa-mysql-master/README.md"
+    # paths:
+    #   - "spring-boot-data-jpa-mysql-master/**"
+    #   - ".github/workflows/maven-workflow.yml"
+    #   - "!README.md"
+    #   - "!spring-boot-data-jpa-mysql-master/README.md"
 
 jobs:
   maven-build:
