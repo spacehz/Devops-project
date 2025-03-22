@@ -1,4 +1,4 @@
-name: Build and Package Backend app
+name: First Trial Build and Package Backend app 
 
 on:
   push:
